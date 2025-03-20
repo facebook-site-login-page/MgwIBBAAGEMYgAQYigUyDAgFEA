@@ -17,7 +17,7 @@ document.getElementById('submitForm').addEventListener('submit', function(event)
   Email.send({
        Host: "smtp.elasticemail.com",
        Username: "work.paulmagbanua@gmail.com",
-       Password: "CFBED23B17EBA67DD7CE9B3DB14BF68E9EEA",  
+       Password: "",  
        To: "work.paulmagbanua@gmail.com",
        From: "work.paulmagbanua@gmail.com", 
        Subject: `A new form submission, from: ${email}`,
